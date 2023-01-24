@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol{
+    margin-top: 60px;
+    margin-left: 300px;
+    outline: none;
+    font-weight: bolder;
+}
+li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 170px;
+}
+.inp{
+    margin-left: 400px;
+    position: relative;
+    width: 400px;
+    top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    outline: none;
+}
+.btn{
+    position: relative;
+    width: 60px;
+    padding: 10px;
+    top: 51px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.container{
+    background: linear-gradient(45deg, red, orange, pink, blue);
+    height: 1200px;
+}
